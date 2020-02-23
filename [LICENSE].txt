@@ -1,0 +1,4 @@
+Ce logiciel n'est soumis à aucun Copyright 
+
+Toutefois, il a été développé au sein de l'ECE :
+Ecole Centrale d'Electronique de PARIS - http://www.ece.fr
