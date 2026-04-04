@@ -6,6 +6,10 @@ This game is quite important to me because both my girlfriend and my little sist
 
 This was a two-person project: I wrote most of the code (everything except the main menu assets), the NSIS installer, and none of the assets (icons, images, sounds).
 
+## Play it
+
+**[Play in your browser](https://fclairamb.github.io/bomberman_2005/)** — a Phaser.js port of the original, deployed via GitHub Pages.
+
 ## Features
 
 - **Single-player and 2-player** local modes (same keyboard)
