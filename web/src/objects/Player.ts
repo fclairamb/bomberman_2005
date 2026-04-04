@@ -223,6 +223,7 @@ export class Player extends Phaser.GameObjects.Sprite {
 
     this.bombsDeployed++;
     this.gameScene.spawnBomb(this.gridCol, this.gridRow, this.bombPower, this.playerIndex);
+
   }
 
   recoverBomb(): void {

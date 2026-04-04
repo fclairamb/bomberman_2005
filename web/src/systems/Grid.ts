@@ -51,16 +51,6 @@ export class Grid {
     );
   }
 
-  /** Check if a cell blocks movement (including other players for collision) */
-  isBlocked(col: number, row: number): boolean {
-    if (!this.isValid(col, row)) return true;
-    return this.getEntries(col, row).some(e =>
-      e.type === ObjectType.MUR ||
-      e.type === ObjectType.INCASSABLE ||
-      e.type === ObjectType.BOMBE ||
-      e.type === ObjectType.BIENTOT
-    );
-  }
 
   removeType(col: number, row: number, type: ObjectType): CellEntry | null {
     if (!this.isValid(col, row)) return null;
